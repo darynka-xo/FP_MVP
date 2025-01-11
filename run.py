@@ -1,12 +1,21 @@
-from flask import Flask
+from datetime import timedelta
+from app import create_app
+from flask_session import Session
 
-app = Flask(__name__)
+app = create_app()
 
+# Explicit session config
+app.config.update(
+    SESSION_COOKIE_SAMESITE="None",  # Required for cross-origin
+    SESSION_COOKIE_SECURE=False,    # Set to True in production with HTTPS
+    SESSION_COOKIE_HTTPONLY=True,
+    PERMANENT_SESSION_LIFETIME=timedelta(hours=1),
+    SESSION_REFRESH_EACH_REQUEST=True,
+    SESSION_TYPE='filesystem'
+)
 
-@app.route('/')
-def hello_world():  # put application's code here
-    return 'Hello World!'
-
+# Initialize Session
+Session(app)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
