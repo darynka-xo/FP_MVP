@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="156fe8f9-02f9-47e1-aa64-7085d4da24c9" name="Changes" comment="FirstCommit">
+    <list default="true" id="156fe8f9-02f9-47e1-aa64-7085d4da24c9" name="Changes" comment="MVP10.01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/resources/catalog_resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/catalog_resources.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/resources/order_resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/order_resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/resources/spec_resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/spec_resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/resources/tech_card_resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/tech_card_resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/resources/user_resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/user_resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736354670423</updated>
-      <workItem from="1736354676123" duration="66256000" />
+      <workItem from="1736354676123" duration="69576000" />
     </task>
     <task id="LOCAL-00001" summary="FirstCommit">
       <option name="closed" value="true" />
@@ -133,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736358102530</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MVP10.01">
+      <option name="closed" value="true" />
+      <created>1736597773677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736597773680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FirstCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="FirstCommit" />
+    <MESSAGE value="MVP10.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVP10.01" />
   </component>
 </project>
